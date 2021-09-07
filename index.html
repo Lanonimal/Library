@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Library</title>
+    <meta charset="UTF-8"/>
+    <link rel="stylesheet" href="style.css"/>
+    <script src="script.js" defer></script>
+</head>
+   
+<body>
+<header class="header">
+    <div class="headerContainer">
+        <h1 class="title">Library</h1>
+    </div>
+</header>
+
+<main class="main">
+    <button class="add-book-btn" id="addBookBtn">Add Book</button>
+    <div class="bookGrid" id='bookGrid'></div>
+</main>
+
+<div class="menu" id="addBookInputMenu">
+    <form class="addBookForm" id="addBookForm">
+        <h3>Add New Book</h3>
+        <input class="input" id="title" type="text" placeholder="Title" required/>
+        <p class="error-msg" id="errorMsg"></p>
+        <input class="input" id="author" type="text" placeholder="Author" required/>
+        <input class="input" id="pages" type="number" placeholder="Pages" required/>
+        <div class="is-read">
+            <label for="is-read">Have you read it?</label>
+            <input type="checkbox" class="checkbox" id="isRead"/>
+        </div>
+        <button type="submit">Submit</button>
+    </form>
+</div>
+<div class="overlay" id="overlay"></div>
+</body> 
+</html>

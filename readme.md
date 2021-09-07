@@ -1,0 +1,1 @@
+pretty happy with the result, coded along with other code, which isnt what i wanted, but it did allow me to learn. Need to be more independent.
